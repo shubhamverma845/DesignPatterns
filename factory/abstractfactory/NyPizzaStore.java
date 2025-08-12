@@ -15,7 +15,7 @@ public class NyPizzaStore extends PizzaStore {
         } else if (item.equals("veggie")) {
             pizza = new VeggiePizza(ingredientFactory);
             pizza.setName("New York Style Veggie Pizza");
-        } else if (item.equals("cla")) {
+        } else if (item.equals("clam")) {
             pizza = new ClamPizza(ingredientFactory);
             pizza.setName("New York Style Clam Pizza");
         } else if (item.equals("pepperoni")) {
